@@ -1,35 +1,38 @@
-import asciimatics
-from asciimatics.screen import Screen
 import importlib
+import matplotlib.pyplot as plt
 
-def draw_dashboard(screen):
-    screen.clear()
+# Module einbinden
+try:
+    trump = importlib.import_module("visuals.trump")
+except ModuleNotFoundError:
+    trump = None
 
-    # ASCII Header mit US-Farben
-    screen.print_at("********** TRUMP NEWS **********", 2, 2, Screen.COLOUR_RED)
-    screen.print_at("********** MUSK TRENDS *********", 40, 2, Screen.COLOUR_BLUE)
+try:
+    musk = importlib.import_module("visuals.musk")
+except ModuleNotFoundError:
+    musk = None
 
-    # Trump Visualisierung
-    try:
-        trump_module = importlib.import_module("trump")
-        trump_module.show_trump_visual(screen)
-    except ModuleNotFoundError:
-        screen.print_at("[Trump Visual nicht implementiert]", 5, 10, Screen.COLOUR_WHITE)
+# Diagramme anzeigen
+fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
-    # Musk Visualisierung
-    try:
-        musk_module = importlib.import_module("musk")
-        musk_module.show_musk_visual(screen)
-    except ModuleNotFoundError:
-        screen.print_at("[Musk Visual nicht implementiert]", 50, 10, Screen.COLOUR_WHITE)
+# Trump-Diagramm
+if trump and hasattr(trump, "show_trump_visual"):
+    trump.show_trump_visual(axes[0])
+    axes[0].set_title("Trump News")
+else:
+    axes[0].text(0.5, 0.5, "Trump-Daten fehlen", ha='center', va='center', fontsize=12)
+    axes[0].set_xticks([])
+    axes[0].set_yticks([])
 
-    screen.refresh()
+# Musk-Diagramm
+if musk and hasattr(musk, "show_musk_visual"):
+    musk.show_musk_visual(axes[1])
+    axes[1].set_title("Musk Trends")
+else:
+    axes[1].text(0.5, 0.5, "Musk-Daten fehlen", ha='center', va='center', fontsize=12)
+    axes[1].set_xticks([])
+    axes[1].set_yticks([])
 
-def main(screen):
-    draw_dashboard(screen)
-    while True:
-        event = screen.get_key()
-        if event in (ord("q"), ord("Q")):
-            return
-
-Screen.wrapper(main)
+# Layout anpassen und Diagramme anzeigen
+plt.tight_layout()
+plt.show()
