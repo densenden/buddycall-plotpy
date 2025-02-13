@@ -11,22 +11,40 @@
             "text": "Infografiken helfen, komplexe Daten einfach und verst\u00e4ndlich zu machen. Gute Infografiken folgen bestimmten Prinzipien.",
             "link": "https://venngage.com/blog/7-essential-rules-create-infographics/",
             "highlight": "7 Regeln f\u00fcr gute Infografiken",
-            "code": [
-                "1. Klare Botschaft definieren",
-                "2. Relevante Daten ausw\u00e4hlen",
-                "3. Daten visuell sinnvoll darstellen",
-                "4. Farben und Typografie gezielt einsetzen",
-                "5. Einfach und verst\u00e4ndlich bleiben"
-            ],
             "image": "assets/info_visualization.png",
             "prev": 0,
-            "next": 2
+            "next": 2,
+            "code": [
+                "1\ufe0f\u20e3 Erz\u00e4hle eine Geschichte:",
+                "   - Gute Infografiken haben eine klare Botschaft und f\u00fchren den Betrachter durch die Daten.",
+                "",
+                "2\ufe0f\u20e3 Verwende relevante Daten:",
+                "   - Konzentriere dich auf Daten, die f\u00fcr dein Publikum n\u00fctzlich sind.",
+                "",
+                "3\ufe0f\u20e3 W\u00e4hle die richtige Visualisierung:",
+                "   - Entscheide zwischen Diagrammen, Karten oder anderen Formaten f\u00fcr optimale Lesbarkeit.",
+                "",
+                "4\ufe0f\u20e3 Halte es einfach:",
+                "   - Weniger ist mehr \u2013 zu viele Informationen k\u00f6nnen \u00fcberw\u00e4ltigend sein.",
+                "",
+                "5\ufe0f\u20e3 Nutze Farben strategisch:",
+                "   - Farben sollten die Aufmerksamkeit lenken, nicht ablenken.",
+                "",
+                "6\ufe0f\u20e3 Verwende klare Typografie:",
+                "   - Schriften m\u00fcssen lesbar sein und sollten die Hierarchie der Informationen unterst\u00fctzen.",
+                "",
+                "7\ufe0f\u20e3 Mache es leicht verst\u00e4ndlich:",
+                "   - Deine Infografik sollte auf einen Blick erfassbar sein, ohne lange Erkl\u00e4rungen."
+            ]
         },
         {
             "title": "\ud83d\udc3c Einf\u00fchrung in Pandas",
             "text": "Pandas ist eine leistungsstarke Bibliothek f\u00fcr die Datenverarbeitung. Es bietet flexible Tools zum Laden, Transformieren und Analysieren von Daten.",
             "link": "https://python-programming.quantecon.org/pandas.html",
-            "highlight": "Pandas QuantEcon Tutorial 🤙🏽",
+            "highlight": "Pandas QuantEcon Tutorial \ud83e\udd19\ud83c\udffd",
+            "image": "assets/pandas_intro.png",
+            "prev": 1,
+            "next": 3,
             "code": [
                 "import pandas as pd",
                 "# CSV-Datei laden",
@@ -37,71 +55,107 @@
                 "print(df.dtypes)",
                 "# Daten filtern",
                 "df_filtered = df[df['Wert'] > 100]"
-            ],
-            "image": "assets/pandas_intro.png",
-            "prev": 1,
-            "next": 3
+            ]
+        },
+        {
+            "title": "\ud83d\uddd2\ufe0f Pandas Intro Course",
+            "text": "Hier findest du einen ausf\u00fchrlichen Kurs zur Einf\u00fchrung in Pandas.",
+            "link": "https://drive.google.com/file/d/1UQs7scnP_cJNBlIN_CapHjI33zh38L7v/view?usp=sharing",
+            "highlight": "\ud83d\udcd6 Pandas Einsteiger-Kurs",
+            "image": "assets/pandas_course_intro.png",
+            "prev": 2,
+            "next": 4
+        },
+        {
+            "title": "\ud83d\udc60 Pandas Advanced Course",
+            "text": "F\u00fcr tiefergehendes Wissen \u00fcber Pandas empfehlen wir diesen Kurs.",
+            "link": "https://drive.google.com/file/d/11FykZnsldSWWBPo-ynOnLvTlxpywR7be/view?usp=sharing",
+            "highlight": "\ud83d\udcd8 Pandas Fortgeschrittenen-Kurs",
+            "image": "assets/pandas_course_advanced.png",
+            "prev": 3,
+            "next": 5
         },
         {
             "title": "\ud83d\udcc8 Einf\u00fchrung in Plotly",
             "text": "Plotly ist eine Bibliothek f\u00fcr interaktive Datenvisualisierungen mit Unterst\u00fctzung f\u00fcr Diagramme, Karten und Dashboards.",
             "link": "https://plotly.com/python/",
             "highlight": "Plotly Python Docs",
+            "image": "assets/plotly_intro.png",
+            "prev": 4,
+            "next": 6,
             "code": [
                 "import plotly.express as px",
                 "# Einfache Liniendiagramm-Erstellung",
                 "df = px.data.gapminder()",
                 "fig = px.line(df, x='year', y='pop', color='continent', title='Bev\u00f6lkerungswachstum')",
                 "fig.show()"
-            ],
-            "image": "assets/plotly_intro.png",
-            "prev": 2,
-            "next": 4
+            ]
+        },
+        {
+            "title": "\ud83c\udf0f Plotly Bubble Maps Intro",
+            "text": "Einf\u00fchrung in Bubble Maps mit Plotly. Diese Visualisierung zeigt die geografische Verteilung von Daten.",
+            "link": "https://drive.google.com/file/d/1lTe_Mo8nkvTuL3D-2Ntx6HgOQBEG-wxx/view?usp=sharing",
+            "highlight": "\ud83d\udcca Plotly Bubble Maps Einf\u00fchrung",
+            "image": "assets/plotly_bubble_map_course.png",
+            "prev": 5,
+            "next": 7
+        },
+        {
+            "title": "\ud83d\udcca Plotly Bar Charts Intro",
+            "text": "Dieser Kurs behandelt die Erstellung von Balkendiagrammen mit Plotly.",
+            "link": "https://drive.google.com/file/d/168oi01hns75GOSUy-qkwudrQDH18Fp1K/view?usp=sharing",
+            "highlight": "\ud83d\udcc9 Plotly Balkendiagramme Einf\u00fchrung",
+            "image": "assets/plotly_bar_chart_course.png",
+            "prev": 6,
+            "next": 8
         },
         {
             "title": "\ud83c\udf0d Trump: Bubble Map",
             "text": "Wie verteilt sich die Medienberichterstattung zu Trump weltweit? Wir nutzen `scatter_geo` f\u00fcr eine Weltkarte.",
             "link": "https://plotly.com/python/bubble-maps/",
             "highlight": "Plotly Bubble Maps",
+            "image": "assets/team_trump.png",
+            "prev": 7,
+            "next": 9,
             "code": [
                 "import plotly.express as px",
                 "import pandas as pd",
                 "df = pd.read_csv(\"trump_news.csv\")",
                 "fig = px.scatter_geo(df, locations=\"country\", size=\"num_articles\", projection=\"natural earth\")",
                 "fig.show()"
-            ],
-            "image": "assets/team_trump.png",
-            "prev": 3,
-            "next": 5
+            ]
         },
         {
             "title": "\ud83d\udcca Musk: Bar Chart",
             "text": "Welche Themen dominieren die Musk-Schlagzeilen? Wir verwenden ein Balkendiagramm.",
             "link": "https://plotly.com/python/bar-charts/",
             "highlight": "Plotly Bar Charts",
+            "image": "assets/team_musk.png",
+            "prev": 8,
+            "next": 10,
             "code": [
                 "import plotly.express as px",
                 "import pandas as pd",
                 "df = pd.read_csv(\"musk_news.csv\")",
                 "fig = px.bar(df, x=\"Thema\", y=\"H\u00e4ufigkeit\", color=\"Thema\")",
                 "fig.show()"
-            ],
-            "image": "assets/team_musk.png",
-            "prev": 4,
-            "next": 6
+            ]
         },
         {
             "title": "\u26a1 Hackathon Phase",
             "text": "Jedes Team implementiert seine Visualisierung mit Plotly. Ziel: Daten einlesen, Diagramme erstellen, Teamwork!",
             "image": "assets/hackathon.png",
-            "prev": 5,
-            "next": 7
+            "prev": 9,
+            "next": 11
         },
         {
             "title": "\ud83d\udcdd Projekt Setup mit Git",
             "text": "Dieses Projekt ist als GitHub-Repository verf\u00fcgbar. Klone das Repository mit folgendem Befehl:",
             "link": "https://github.com/densenden/buddycall-plotpy",
             "highlight": "GitHub Repository",
+            "image": "assets/git_setup.png",
+            "prev": 10,
+            "next": 12,
             "code": [
                 "# Repository klonen",
                 "git clone https://github.com/densenden/buddycall-plotpy",
@@ -136,14 +190,14 @@
                 "",
                 "git checkout trump",
                 "git merge main"
-            ],
-            "image": "assets/git_setup.png",
-            "prev": 6,
-            "next": 8
+            ]
         },
         {
             "title": "\ud83d\udcc2 GitHub Struktur",
             "text": "Das Repository ist in verschiedene Ordner unterteilt, um eine saubere Code-Struktur zu gew\u00e4hrleisten.",
+            "image": "assets/github_structure.png",
+            "prev": 11,
+            "next": 13,
             "code": [
                 "buddycall-plotpy/",
                 "\u2502\u2500\u2500 data/         # Enth\u00e4lt CSV-Dateien",
@@ -185,16 +239,13 @@
                 "\u2502\u2500\u2500 script.js     # Interaktive Logik der Pr\u00e4sentation",
                 "\u2502\u2500\u2500 styles.css    # Styling f\u00fcr die Pr\u00e4sentation",
                 "\u2502\u2500\u2500 content.json  # Inhalte f\u00fcr die Pr\u00e4sentation"
-            ],
-            "image": "assets/github_structure.png",
-            "prev": 7,
-            "next": 9
+            ]
         },
         {
             "title": "\ud83d\udcdd Feedback & Reflexion",
             "text": "Was hat gut funktioniert? Was k\u00f6nnen wir verbessern?",
             "image": "assets/feedback.png",
-            "prev": 8
+            "prev": 12
         }
     ]
 }
