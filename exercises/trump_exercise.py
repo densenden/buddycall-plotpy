@@ -9,7 +9,7 @@ data = {
     "num_articles": [120, 50, 80, 40, 100, 30]
 }
 
-df = pd.DataFrame(data)
+df = pd.DataFrame(data) #https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 
 # 2️⃣ Plotly Bubble Map erstellen
 fig = px.scatter_geo(df, locations="country", size="num_articles", projection="natural earth",

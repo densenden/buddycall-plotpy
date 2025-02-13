@@ -1,22 +1,22 @@
-# Übung: Bubble Charts mit Plotly (Musk Team)
-
 import plotly.express as px
 import pandas as pd
 
-# 1️⃣ Beispiel-Daten für ein einfaches Bubble Chart erstellen
+# 1️⃣ Beispiel-Daten für ein einfaches Balkendiagramm erstellen
 data = {
     "Thema": ["Tesla", "SpaceX", "X (Twitter)", "AI", "Neuralink"],
-    "Häufigkeit": [80, 50, 120, 90, 30],
-    "Impact": [3, 5, 8, 6, 4]  # Größe der Blasen
+    "Häufigkeit": [80, 50, 120, 90, 30]  # Anzahl der Erwähnungen
 }
 
-df = pd.DataFrame(data)
+df = pd.DataFrame(data) #https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 
-# 2️⃣ Plotly Bubble Chart erstellen
-fig = px.scatter(df, x="Thema", y="Häufigkeit", size="Impact", color="Thema",
-                 title="Beispiel-Bubble-Chart für Musk Themen-Trends")
+# 2️⃣ Bar Chart mit Plotly erstellen
+fig = px.bar(df, x="Thema", y="Häufigkeit", color="Thema",
+             title="📊 Beispiel-Balkendiagramm für Musk-Themen-Trends",
+             labels={"Häufigkeit": "Anzahl der Erwähnungen", "Thema": "Technologie-Themen"})
 
 # 3️⃣ Diagramm anzeigen
 fig.show()
 
-# 🔥 Aufgabe: Ändere die Größenwerte oder füge neue Themen hinzu!
+# 🔥 Aufgabe:
+# - Ändere die Häufigkeitswerte oder füge neue Themen hinzu.
+# - Erstelle ein gestapeltes Balkendiagramm mit mehreren Kategorien.
