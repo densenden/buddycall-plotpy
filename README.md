@@ -15,6 +15,8 @@ Dieses Projekt enthält ein interaktives **Daten-Dashboard**, das zwei verschied
 
 ## 🐍 Python Libraries Introduction
  🗒️ [**Pandas** intro course](https://drive.google.com/file/d/1UQs7scnP_cJNBlIN_CapHjI33zh38L7v/view?usp=sharing)
+ 
+ 👠️ [**Pandas** advanced course](https://drive.google.com/file/d/11FykZnsldSWWBPo-ynOnLvTlxpywR7be/view?usp=sharing)
 
  📊 [**Plotly** Bar Charts intro course](https://drive.google.com/file/d/168oi01hns75GOSUy-qkwudrQDH18Fp1K/view?usp=sharing)
 
