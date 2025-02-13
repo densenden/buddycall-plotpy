@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h1>${slide.title}</h1>
                         <p>${slide.text}</p>
                         ${slide.link ? `<p class="highlight"><a href="${slide.link}" target="_blank">${slide.highlight}</a></p>` : ""}
+                        ${slide.image ? `<img src="${slide.image}" alt="Slide Image" class="slide-image">` : ""}
                         ${slide.code ? `<div class="code-box"><pre>${slide.code.join("\n")}</pre></div>` : ""}
                         <div>
                             ${slide.prev !== undefined ? `<button class="button" onclick="renderSlide(${slide.prev})">⬅️ Zurück</button>` : ""}

@@ -2,8 +2,8 @@
 
 ## 🖼 Teams
 <div style="display: flex; justify-content: space-around;">
-  <img src="assets/team_trump.png" alt="Team Trump" width="45%"/>
-  <img src="assets/team_musk.png" alt="Team Musk" width="45%"/>
+  <img src="docs/assets/team_trump.png" alt="Team Trump" width="45%"/>
+  <img src="docs/assets/team_musk.png" alt="Team Musk" width="45%"/>
 </div>
 
 ## 📌 Projektbeschreibung
