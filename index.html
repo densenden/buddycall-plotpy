@@ -5,120 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BuddyCall Plotly Session</title>
     <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'SF Pro Display', sans-serif;
-            background-color: #1e1e1e;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .container {
-            width: 80%;
-            max-width: 800px;
-            text-align: center;
-        }
-        .slide {
-            display: none;
-        }
-        .active {
-            display: block;
-        }
-        .button {
-            background-color: #444;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background-color: #666;
-        }
-        .team-images {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-        .team-images img {
-            width: 45%;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="slide active" id="slide1">
+        <div class="slide active">
             <h1>🚀 BuddyCall: Trump & Musk - Datenvisualisierung mit Plotly</h1>
-            <p>Interaktive Session zur Datenanalyse mit Plotly</p>
-            <button class="button" onclick="nextSlide(1)">Weiter 👉</button>
-        </div>
-
-        <div class="slide" id="slide2">
-            <h2>🗓 Agenda</h2>
-            <ul>
-                <li>📊 Einführung in Datenvisualisierung & Plotly</li>
-                <li>🎯 Vorstellung der Teamaufgaben</li>
-                <li>🔧 Plotly-Übungen für beide Teams</li>
-                <li>💻 Hackathon: Implementierung</li>
-                <li>📢 Präsentation der Ergebnisse</li>
-                <li>📝 Feedback & Reflexion</li>
-            </ul>
-            <button class="button" onclick="prevSlide(0)">⬅️ Zurück</button>
-            <button class="button" onclick="nextSlide(2)">Weiter 👉</button>
-        </div>
-
-        <div class="slide" id="slide3">
-            <h2>👥 Team-Aufgaben</h2>
-            <div class="team-images">
-                <img src="assets/team_trump.png" alt="Team Trump">
-                <img src="assets/team_musk.png" alt="Team Musk">
-            </div>
-            <h3>🇺🇸 Team Trump: Bubble Map</h3>
-            <p>🗺 Wo wird über Trump gesprochen? Darstellung auf einer Weltkarte.</p>
-            <h3>🚀 Team Musk: Bubble Chart</h3>
-            <p>📈 Welche Themen sind in Musk-Schlagzeilen dominant?</p>
-            <button class="button" onclick="prevSlide(1)">⬅️ Zurück</button>
-            <button class="button" onclick="nextSlide(3)">Weiter 👉</button>
-        </div>
-
-        <div class="slide" id="slide4">
-            <h2>⚡ Hackathon Phase</h2>
-            <p>💻 Jedes Team implementiert seine Visualisierung in Plotly mit den bereitgestellten CSV-Daten.</p>
-            <p>🎯 Fokus: Daten einlesen, Diagramme erstellen, Teamwork!</p>
-            <button class="button" onclick="prevSlide(2)">⬅️ Zurück</button>
-            <button class="button" onclick="nextSlide(4)">Weiter 👉</button>
-        </div>
-
-        <div class="slide" id="slide5">
-            <h2>📝 Feedback & Reflexion</h2>
-            <p>🤔 Wie war die Erfahrung mit Plotly?</p>
-            <p>👍 Was hat gut funktioniert, was können wir verbessern?</p>
-            <button class="button" onclick="prevSlide(3)">⬅️ Zurück</button>
+            <p>Wird geladen...</p>
         </div>
     </div>
-
-    <script>
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.slide');
-
-        function nextSlide(index) {
-            slides[currentSlide].classList.remove('active');
-            slides[index].classList.add('active');
-            currentSlide = index;
-        }
-
-        function prevSlide(index) {
-            slides[currentSlide].classList.remove('active');
-            slides[index].classList.add('active');
-            currentSlide = index;
-        }
-    </script>
 </body>
 </html>
