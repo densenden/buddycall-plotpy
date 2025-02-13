@@ -1,4 +1,4 @@
 import plotly.express as px
 
-fig = px.scatter(x=[1, 2, 3, 4], y=[10, 11, 12, 13], title="Test-Plotly Diagramm")
+fig = px.bar(x=["1999","2003", "2010", "2019"], y=[52, 55, 51, 42], title="Test-Plotly Heidis Gewicht")
 fig.show()
