@@ -26,7 +26,7 @@
             "title": "\ud83d\udc3c Einf\u00fchrung in Pandas",
             "text": "Pandas ist eine leistungsstarke Bibliothek f\u00fcr die Datenverarbeitung. Es bietet flexible Tools zum Laden, Transformieren und Analysieren von Daten.",
             "link": "https://python-programming.quantecon.org/pandas.html",
-            "highlight": "Pandas Dokumentation",
+            "highlight": "Pandas QuantEcon Tutorial 🤙🏽",
             "code": [
                 "import pandas as pd",
                 "# CSV-Datei laden",
