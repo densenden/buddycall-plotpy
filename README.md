@@ -13,12 +13,12 @@ Dieses Projekt enthält ein interaktives **Daten-Dashboard**, das zwei verschied
 🔹 **Team Trump:** Weltweite Medienberichterstattung über Trump als Bubble Map  
 🔹 **Team Musk:** Entwicklung von Themen-Trends über Zeit als Liniendiagramm  
 
-## 🐍 Python Libraries
+## 🐍 Python Libraries Introduction
  🗒️ [**Pandas** intro course](https://drive.google.com/file/d/1UQs7scnP_cJNBlIN_CapHjI33zh38L7v/view?usp=sharing)
 
- 📊 [**Plotly** Bar Charts intro course]()
+ 📊 [**Plotly** Bar Charts intro course](https://drive.google.com/file/d/168oi01hns75GOSUy-qkwudrQDH18Fp1K/view?usp=sharing)
 
- 🌏 [**Plotly** Bubble Maps intro course]()
+ 🌏 [**Plotly** Bubble Maps intro course](https://drive.google.com/file/d/1lTe_Mo8nkvTuL3D-2Ntx6HgOQBEG-wxx/view?usp=sharing)
 
 ## 📥 Installation
 1. Klone das Repository oder lade es als ZIP herunter.
