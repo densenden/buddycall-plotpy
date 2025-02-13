@@ -1,0 +1,78 @@
+{
+    "slides": [
+        {
+            "title": "\ud83d\ude80 BuddyCall: Trump & Musk - Datenvisualisierung mit Plotly",
+            "text": "Interaktive Session zur Datenanalyse mit Plotly",
+            "next": 1
+        },
+        {
+            "title": "\ud83d\udcca Warum Datenvisualisierung?",
+            "text": "Infografiken machen Daten verst\u00e4ndlich und visuell zug\u00e4nglich.",
+            "link": "https://venngage.com/blog/7-essential-rules-create-infographics/",
+            "highlight": "7 Regeln f\u00fcr gute Infografiken",
+            "code": [
+                "1. Klare Botschaft definieren",
+                "2. Relevante Daten ausw\u00e4hlen",
+                "3. Daten visuell sinnvoll darstellen",
+                "4. Farben und Typografie gezielt einsetzen",
+                "5. Einfach und verst\u00e4ndlich bleiben"
+            ],
+            "prev": 0,
+            "next": 2
+        },
+        {
+            "title": "\ud83d\udcca Einf\u00fchrung in Pandas",
+            "text": "Pandas ist eine leistungsstarke Bibliothek f\u00fcr die Datenverarbeitung.",
+            "link": "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html",
+            "highlight": "Pandas DataFrame Docs",
+            "code": [
+                "import pandas as pd",
+                "df = pd.read_csv(\"data.csv\")",
+                "print(df.head())"
+            ],
+            "prev": 1,
+            "next": 3
+        },
+        {
+            "title": "\ud83c\udf0d Trump: Bubble Map",
+            "text": "Wie verteilt sich die Medienberichterstattung zu Trump weltweit?",
+            "link": "https://plotly.com/python/bubble-maps/",
+            "highlight": "Plotly Bubble Maps",
+            "code": [
+                "import plotly.express as px",
+                "import pandas as pd",
+                "df = pd.read_csv(\"trump_news.csv\")",
+                "fig = px.scatter_geo(df, locations=\"country\", size=\"num_articles\", projection=\"natural earth\")",
+                "fig.show()"
+            ],
+            "prev": 2,
+            "next": 4
+        },
+        {
+            "title": "\ud83d\udcc8 Musk: Bar Chart",
+            "text": "Welche Themen dominieren die Musk-Schlagzeilen?",
+            "link": "https://plotly.com/python/bar-charts/",
+            "highlight": "Plotly Bar Charts",
+            "code": [
+                "import plotly.express as px",
+                "import pandas as pd",
+                "df = pd.read_csv(\"musk_news.csv\")",
+                "fig = px.bar(df, x=\"Thema\", y=\"H\u00e4ufigkeit\", color=\"Thema\")",
+                "fig.show()"
+            ],
+            "prev": 3,
+            "next": 5
+        },
+        {
+            "title": "\u26a1 Hackathon Phase",
+            "text": "Jedes Team implementiert seine Visualisierung mit Plotly.",
+            "prev": 4,
+            "next": 6
+        },
+        {
+            "title": "\ud83d\udcdd Feedback & Reflexion",
+            "text": "Was hat gut funktioniert? Was k\u00f6nnen wir verbessern?",
+            "prev": 5
+        }
+    ]
+}
