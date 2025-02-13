@@ -85,9 +85,13 @@
             "next": 6,
             "code": [
                 "import plotly.express as px",
+                "",
                 "# Einfache Liniendiagramm-Erstellung",
+                "",
                 "df = px.data.gapminder()",
+                "",
                 "fig = px.line(df, x='year', y='pop', color='continent', title='Bev\u00f6lkerungswachstum')",
+                "",
                 "fig.show()"
             ]
         },
@@ -119,15 +123,19 @@
             "next": 9,
             "code": [
                 "import plotly.express as px",
+                "",
                 "import pandas as pd",
+                "",
                 "df = pd.read_csv(\"trump_news.csv\")",
+                "",
                 "fig = px.scatter_geo(df, locations=\"country\", size=\"num_articles\", projection=\"natural earth\")",
+                "",
                 "fig.show()"
             ]
         },
         {
             "title": "\ud83d\udcca Musk: Bar Chart",
-            "text": "Welche Themen dominieren die Musk-Schlagzeilen? Wir verwenden ein Balkendiagramm.",
+            "text": "Welche Themen dominieren die Musk-Schlagzeilen? Wir zeigen es mit einem Balkendiagramm.",
             "link": "https://plotly.com/python/bar-charts/",
             "highlight": "Plotly Bar Charts",
             "image": "assets/team_musk.png",
@@ -135,9 +143,13 @@
             "next": 10,
             "code": [
                 "import plotly.express as px",
+                "",
                 "import pandas as pd",
+                "",
                 "df = pd.read_csv(\"musk_news.csv\")",
+                "",
                 "fig = px.bar(df, x=\"Thema\", y=\"H\u00e4ufigkeit\", color=\"Thema\")",
+                "",
                 "fig.show()"
             ]
         },
@@ -163,7 +175,7 @@
                 "# In den Projektordner wechseln",
                 "cd buddycall-plotpy",
                 "",
-                "# Neue Branches f\u00fcr Teams erstellen",
+                "# Neuen Branch f\u00fcr euer Team erstellen",
                 "git checkout -b musk",
                 "git checkout -b trump",
                 "",
@@ -171,7 +183,7 @@
                 "python -m venv venv",
                 "source venv/bin/activate  # macOS/Linux",
                 "",
-                "# Abh\u00e4ngigkeiten installieren",
+                "# Libs installieren",
                 "pip install -r requirements.txt",
                 "",
                 "# \u00c4nderungen committen und pushen",
