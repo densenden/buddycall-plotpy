@@ -47,12 +47,16 @@
             "next": 3,
             "code": [
                 "import pandas as pd",
+                "",
                 "# CSV-Datei laden",
                 "df = pd.read_csv(\"data.csv\")",
+                "",
                 "# Erste Zeilen anzeigen",
                 "print(df.head())",
+                "",
                 "# Datentypen anzeigen",
                 "print(df.dtypes)",
+                "",
                 "# Daten filtern",
                 "df_filtered = df[df['Wert'] > 100]"
             ]
