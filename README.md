@@ -18,7 +18,7 @@ Dieses Projekt enthält ein interaktives **Daten-Dashboard**, das zwei verschied
  
  👠️ [**Pandas** advanced lesson](https://drive.google.com/file/d/11FykZnsldSWWBPo-ynOnLvTlxpywR7be/view?usp=sharing)
 
- 🩸 [**Pandas melted lesson](https://drive.google.com/file/d/1bxwVaKr9pkj05WJzwP3qUjr8bXNhr3bR/view?usp=sharing)
+ 🩸 [**Pandas** melted lesson](https://drive.google.com/file/d/1bxwVaKr9pkj05WJzwP3qUjr8bXNhr3bR/view?usp=sharing)
 
  📊 [**Plotly** Bar Charts intro course](https://drive.google.com/file/d/168oi01hns75GOSUy-qkwudrQDH18Fp1K/view?usp=sharing)
 
