@@ -1,5 +1,8 @@
 # BuddyCall-Plotly
 
+## 📌 Presentation
+  🎪 [Presentation Website on git](https://densenden.github.io/buddycall-plotpy/)
+  
 ## 🖼 Teams
 <div style="display: flex; justify-content: space-around;">
   <img src="docs/assets/team_trump.png" alt="Team Trump" width="45%"/>
